@@ -310,12 +310,12 @@
 	@media (max-width: 469px){
 		.order-container .form-group{
 			width: 100%;
-		}
-		.order-container{
-			width: 80%;
 			
     		overflow-y: scroll;
 		 	-webkit-overflow-scrolling: auto;
+		}
+		.order-container{
+			width: 80%;
 		}
 		.order-container .budget .custom-check{
 			display: block;
