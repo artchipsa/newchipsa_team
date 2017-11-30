@@ -42,11 +42,12 @@
 				$('.ui-paginator').hide();
 				$('.ui-view-switcher').hide();
 				setTimeout(() => {
+					console.log('element',$(this.$el).find('.team-content'));
 					$(this.$el).find('.small-view').toggleClass('onScreen offScreen');
 					$(this.$el).find('.team-header').toggleClass('onScreen offScreen');
 					$(this.$el).find('.team-content').toggleClass('onScreen offScreen');
 					done();
-				},50);
+				},700);
 			},
 			beforeAnimate(){
 				$(this.$el).find('.small-view').removeClass('onScreen');
@@ -54,8 +55,10 @@
 				$(this.$el).find('.team-content').removeClass('onScreen');
 			},
 			leaveAnimate(el, done){
-				$('.ui-paginator').show();
-				$('.ui-view-switcher').show();
+				if (this.$route.meta.parent){
+					$('.ui-paginator').show();
+					$('.ui-view-switcher').show();
+				}
 				setTimeout(() => {$(this.$el).find('.small-view').toggleClass('onScreen offScreen');}, 350)
 				$(this.$el).find('.team-header').toggleClass('onScreen offScreen');
 				$(this.$el).find('.team-content').toggleClass('onScreen offScreen');
@@ -64,7 +67,6 @@
 				},700);
 			},
 			switchRoster(el){
-				console.log(el.target.parentElement);
 				if (el.target.parentElement.className !== 'active'){
 					this.main_roster = !this.main_roster;
 					this.tab_title = el.target.parentElement.innerText
@@ -131,7 +133,7 @@
 		}
 	}
 	.fullpage{
-		position: relative;
+		position: absolute;
 		width: 100%;
 		height: 100%;
 		background-color: #000;

@@ -305,7 +305,7 @@
 
 	@media (max-width: 700px){
 		.background-pic.onScreen{
-			transform: scale(1);
+			transition: scale(1) 1s linear;
 		}
 		
 		.background-pic{

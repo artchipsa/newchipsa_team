@@ -319,10 +319,11 @@
 		        });
 			}
 
-			initKrskMap();
+
 			/*initMscMap();*/
 			
 			setTimeout(function(){
+				initKrskMap();
 				$('.map').removeClass('prerender');
 			}, 100)
 
