@@ -581,6 +581,9 @@
 		.contact-content .contacts-info.onScreen {
 		    height: 60%;
 		}
+		.contact-content .contacts-info .address-moscow {
+			margin-top: 40px;
+		}
 	}
 
 </style>
