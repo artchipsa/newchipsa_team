@@ -367,7 +367,7 @@
 			margin-top: 40px;
 			height: 49vh;
     		overflow-y: scroll;
-		 	-webkit-overflow-scrolling: touch;
+		 	-webkit-overflow-scrolling: auto;
 		}
 		.team .team-header .worker-switch li button{
 			text-align: left;
