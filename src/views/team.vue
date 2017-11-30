@@ -364,8 +364,8 @@
 			width: 95%;
 		}
 		.team .team-content{
-			margin-top: 40px;
-			height: 49vh;
+			margin-top: 30px;
+			height: 55vh;
     		overflow-y: scroll;
 		 	-webkit-overflow-scrolling: auto;
 		}
@@ -405,7 +405,7 @@
 			margin-bottom: 15px;
 		}
 		.team .team-content{
-			margin-top: 24px;
+			margin-top: 15px;
 		}
 	}
 

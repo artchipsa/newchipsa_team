@@ -313,6 +313,9 @@
 		}
 		.order-container{
 			width: 80%;
+			
+    		overflow-y: scroll;
+		 	-webkit-overflow-scrolling: auto;
 		}
 		.order-container .budget .custom-check{
 			display: block;
