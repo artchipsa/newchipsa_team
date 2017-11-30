@@ -310,9 +310,6 @@
 	@media (max-width: 469px){
 		.order-container .form-group{
 			width: 100%;
-			
-    		overflow-y: scroll;
-		 	-webkit-overflow-scrolling: auto;
 		}
 		.order-container{
 			width: 80%;
