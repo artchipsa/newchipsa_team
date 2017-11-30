@@ -476,7 +476,7 @@
 			font-size: 26px;
 		}
 		.item .color-half, .item .info-half{
-			padding: 8%;
+			padding: 20px;
 		}
 		.works-block{
 			height: 100%;

@@ -314,6 +314,9 @@
 			showAgima(){
 				if (this.$route.fullPath == '/contacts' && $(window).width() > 500){
 					$('.agima').fadeIn();
+					if (this.menuOpen || this.orderOpen) {
+						$('.agima').fadeOut();
+					}
 				} else {
 					$('.agima').fadeOut();
 				}

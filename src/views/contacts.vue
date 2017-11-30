@@ -15,7 +15,7 @@
 				.contacts-info.offScreen
 					transition(name='fade' mode="out-in")
 						.contacts-block(v-show="moscow")
-							p.adress Готовы встречаться лично в столице — давайте договариваться
+							p.adress.address-moscow Готовы приехать на встречу в столицу, если это необходимо
 							.phone-call
 								p Время для звонка: #[br] с 9:00 — 16:00
 								a(href="tel:8—499—323—34—34") 8—499—323—34—34
@@ -467,6 +467,9 @@
 				font-size: 18px;
 				color: #fff;
 				line-height: 180%;
+			}
+			.address-moscow {
+				margin-top: -2px;
 			}
 			.phone-call{
 				p{

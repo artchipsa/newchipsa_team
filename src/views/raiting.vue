@@ -324,11 +324,11 @@
 		}
 		.raiting-view .col:first-child .name{
 			font-size: 19px;
-			top: 35%;
+			top: 27%;
 			line-height: 132%;
 		}
 		.raiting-view .col:first-child .name:nth-child(2){
-			top: 39%!important;
+			top: 30%!important;
 		}
 		.raiting-view .col:first-child .name span{
 			margin-top: 10px;

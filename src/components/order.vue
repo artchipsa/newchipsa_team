@@ -8,9 +8,9 @@
 			.form-group.big-margin
 				input(v-validate="'required|numeric'" v-bind:class="{'input': true, 'is-danger': errors.has('tel') }" v-model="tel" type="tel" name="tel" placeholder="Телефон")
 			.form-group.big-margin
-				textarea(name="descr" v-model="text" id="" placeholder="описание задачи")
+				textarea(name="descr" v-model="text" id="" placeholder="Описание задачи")
 			.budget
-				.text выберите бюджет
+				.text Выберите бюджет
 				.custom-check
 					input(type="radio" value="Менее 500" name="budget" id="small" checked)
 					label(for="small") менее 500 т.р.
@@ -105,6 +105,11 @@
 				&.is-danger{
 					border-bottom-color: #f00;
 				}
+			}
+
+			textarea {
+				padding-bottom: 0;
+				height: 44px;
 			}
 		}
 		.budget{
@@ -340,7 +345,7 @@
 			padding-bottom: 3px;
 		}
 		.order-container .form-group textarea{
-			height: 26px;
+			height: 24px;
 		}
 		.order-container .form-group.big-margin{
 		    margin-bottom: 15px;
