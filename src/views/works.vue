@@ -497,6 +497,10 @@
 		.work{
 			height: 76%;
 		}
+		.owl-carousel {
+			height: 100%;
+			width: 100%;
+		}
 		.owl-carousel .owl-stage-outer{
 			height: 100%;
 		}
@@ -505,6 +509,11 @@
 		}
 		.item{
 			height: 100%;
+			width: 100%;
+		}
+		.item .wrap {
+			height: 76%;
+			width: 82%;
 		}
 		.item .info-half .year{
 			font-size: 22px;
