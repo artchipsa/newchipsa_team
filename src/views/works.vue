@@ -457,6 +457,9 @@
 		.item .info-half .year{
 			right: 6%;
 		}
+		.owl-controls .owl-navs .owl-nav{
+			display: none;
+		}
 	}
 
 	@media (max-width: 469px){

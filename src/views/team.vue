@@ -329,6 +329,15 @@
 		.team .team-content .team-item .rank{
 			width: 70%;
 		}
+		.team .team-content{
+			margin-top: 30px;
+			height: 55vh;
+    		overflow-y: scroll;
+		 	-webkit-overflow-scrolling: auto;
+		}
+		.team .team-content.onScreen{
+			position: relative;
+		}
 
 	}
 

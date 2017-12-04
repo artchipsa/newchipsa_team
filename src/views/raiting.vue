@@ -297,7 +297,10 @@
 	    	font-size: 15px;
 	    }
 	    .raiting-view .col:first-child .name {
-	    	top: 38%;
+	    	top: 20%;
+	    }
+	    .raiting-view .col:first-child .name span{
+			display: none;
 	    }
 	}
 
