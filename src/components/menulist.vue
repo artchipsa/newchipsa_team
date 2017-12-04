@@ -349,6 +349,12 @@
 		.mobile-social {
 		    bottom: 14%;
 		}
+		.works-container {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			overflow-y: auto;
+			height: 65%;
+		}
 	}
 	
 	@media (max-width: 321px){
