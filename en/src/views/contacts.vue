@@ -15,7 +15,7 @@
 				.contacts-info.offScreen
 					transition(name='fade' mode="out-in")
 						.contacts-block(v-show="moscow")
-							p.adress 653453, Russia, Moscow #[br] Rochdelskaya, 15 building 25
+							p.adress.address-moscow 653453, Russia, Moscow #[br] Rochdelskaya, 15 building 25
 							.phone-call
 								p Call time: #[br] 9:00 — 16:00 (UTC+6)
 								a(href="tel:8—499—323—34—34") 8—499—323—34—34
@@ -26,7 +26,7 @@
 							.phone-call
 								p Call time: #[br] 9:00 — 16:00 (UTC+6)
 								a(href="tel:8—499—323—34—34") 8—391—249—66—58
-
+ 
 </template>
 
 <script>

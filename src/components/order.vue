@@ -28,7 +28,7 @@
 		.sucsess
 			h2 Спасибо! #[br] Мы вам перезвоним.
 
-</template>
+</template> 
 
 <script>
 	export default{
@@ -248,6 +248,7 @@
 			}
 		}
 	}
+
 
 	@media (max-width: 1367px){
 		.order-container .form-group{

@@ -248,6 +248,13 @@
 		}
 	}
 
+		
+	@media (max-width: 1480px) {
+		.order-container .budget .custom-check{
+			margin-right: 6%;
+		}
+	}
+
 	@media (max-width: 1367px){
 		.order-container .form-group{
 			margin-bottom: 20px;
@@ -256,7 +263,7 @@
 			margin-bottom: 40px;
 		}
 		.order-container .budget .custom-check{
-			margin-right: 8%;
+			margin-right: 6%;
 		}
 		.order-container .budget{
 			margin-bottom: 5%;
@@ -269,12 +276,21 @@
  		}
  	}
  
+	@media (max-width: 1280px) {
+		.order-container .budget .custom-check {
+ 			margin-right: 2%;
+ 		}
+ 		.order-container .budget .text{
+	        margin-right: 0%;
+		}
+	}
+
  	@media (max-width: 1180px) {
  		.order-container .budget .text{
  	        margin-right: 0%;
  		}
  		.order-container .budget .custom-check {
- 			margin-right: 2%;
+ 			margin-right: 1%;
  		}
  	}
 
