@@ -1,0 +1,14 @@
+{
+	"name": "Maxim Kyshtymov",
+	"rank": "CEO",
+	"descr": "Can find a way out of any situation. Like to shoot photo and video.",
+	"awards": [
+		{
+			"img": "public/achivements/lean.png",
+			"award_text": "Knows and practice LEAN"
+		}
+	],
+	"img": "url(public/max.jpg)",
+	"email": "ceo@chipsa.ru",
+	"skills":["Art Direction", "Project Management", "UI/UX", "Motion design", "Branding", "3D"]
+}

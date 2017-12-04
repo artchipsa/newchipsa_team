@@ -1,0 +1,17 @@
+{
+	"name": "Alexander Pedchenko",
+	"rank": "Art Director, CGI Designer",
+	"descr": "Most experienced designer. Always stands for the ideal.",
+	"awards": [
+		{
+			"img": "public/achivements/aic.png",
+			"award_text": "Successful completion of the UX Design course by AIC"
+		},
+		{
+			"img": "public/achivements/aiga.png",
+			"award_text": "AIGA featuring at Behance"
+		}
+	],
+	"img": "url(public/alex.jpg)",
+	"skills":["Art Direction", "3D", "Photo Retouch", "Motion design", "UI/UX"]
+}

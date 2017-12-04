@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Northem;
+  src: url('./src/assets/fonts/TheNorthernBlockMedium.otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Northem;
+  src: url('./src/assets/fonts/TheNorthernBlockBold.otf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: Northem;
+  src: url('./src/assets/fonts/TheNorthernBlockDemiBold.otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Northem;
+  src: url('./src/assets/fonts/The NorthernBlockNorpethLight.otf');
+  font-weight: 200;
+}
+*{
+	box-sizing: border-box
+}
+body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+._2tga{
+    background: transparent!important;
+}
+.landscape{
+  display: none;
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Ekaterina Proskurina",
+	"rank": "Client Manger",
+	"descr": "Always have positive attitude. Will tell and explain everything.",
+	"img": "url(public/kate.jpg)",
+	"email": "contact@chipsa.ru",
+	"skills":["Communication with clients", "Project evaluation", "Meetings"]
+}

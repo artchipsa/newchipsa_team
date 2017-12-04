@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="20px" viewBox="0 0 51 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main" transform="translate(-65.000000, -990.000000)" fill="#FECC00">
+            <g id="logo" transform="translate(65.000000, 990.000000)">
+                <path d="M51,9.86541611 C51,0.561506902 39.0321143,-5.69540777 25.986633,7.75167084 C22.0978562,7.75167084 17.6888609,0.00555902449 10.2657419,0.00555902449 C4.06027743,0.00555902449 0,4.45171287 0,9.87970783 L0,9.8911412 C0,19.6509563 13.159815,26.0279214 26.9270282,9.86827445 C36.4052963,-1.25782895 44.415805,0.0927385117 48.2202606,4.84187681 C44.607314,0.62724881 37.2413619,0.358564489 27.9474569,13.1239281 C30.9058428,15.0275851 35.097604,19.7395649 40.7342581,19.7395649 C46.9397226,19.7395649 51,15.2948402 51,9.86541611" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
