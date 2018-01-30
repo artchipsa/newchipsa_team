@@ -1,0 +1,17 @@
+{
+	"name": "Evgeniy Yakuba",
+	"rank": "frontend developer",
+	"descr": "Very impressive professional growth.  Knows how to develop well.",
+	"awards": [
+		{
+			"img": "public/achivements/geek.png",
+			"award_text": "JavaScript advanced level (GeekBrains)"
+		}, 
+		{
+			"img": "public/achivements/geek.png",
+			"award_text": "HTML&CSS advanced level (GeekBrains)"
+		}
+	],
+	"img": "url(public/john.jpg)",
+	"skills":["HTML", "CSS", "JavaScript", "JavaScript frameworks", "Webpack"]
+}

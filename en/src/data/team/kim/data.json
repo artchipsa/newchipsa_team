@@ -1,0 +1,21 @@
+{
+	"name": "Kirill Kim",
+	"rank": "Senior Designer",
+	"descr": "Unique combination of speed, quality and creativity in design process.",
+	"awards": [
+		{
+			"img": "public/achivements/aiga.png",
+			"award_text": "AIGA featuring"
+		},
+		{
+			"img": "public/achivements/in.png",
+			"award_text": "Interaction featuring"
+		},
+		{
+			"img": "public/achivements/be.png",
+			"award_text": "Best on Behance featuring"
+		}
+	],
+	"img": "url(public/kirill.jpg)",
+	"skills":["UI/UX", "Motion Design", "Branding"]
+}

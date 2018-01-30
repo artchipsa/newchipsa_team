@@ -8,26 +8,26 @@
 		},
 		{
 			"name": "Татьяна Кыштымова",
-			"rank": "project Manager",
+			"rank": "project manager",
 			"link": "team/tanyakysh",
 			"img": "url(public/tanya.jpg)"
 
 		},
 		{
 			"name": "Константин Кулеша",
-			"rank": "project Manager",
+			"rank": "project manager",
 			"link": "team/kylesha",
 			"img": "url(public/kostya.jpg)"
 		},
 		{
 			"name": "Екатерина Проскурина",
-			"rank": "client Manger",
+			"rank": "client manager",
 			"link": "team/proskyrina",
 			"img": "url(public/kate.jpg)"
 		},
 		{
 			"name": "Александр Педченко",
-			"rank": "art Director, CGI Designer",
+			"rank": "art director, CGI designer",
 			"link": "team/pedchenko",
 			"img": "url(public/alex.jpg)"
 		},
@@ -78,27 +78,27 @@
 	"remote":[
 		{
 			"name": "Антон Решетин",
-			"rank": "копирайтер",
+			"rank": "copywriter",
 			"link": "#"
 		},
 		{
 			"name": "Артём Маркелов",
-			"rank": "SEO-специалист",
+			"rank": "SEO-specialist",
 			"link": "#"
 		},
 		{
 			"name": "Антон Лазарев",
-			"rank": "маркетолог",
+			"rank": "marketer",
 			"link": "#"
 		},
 		{
 			"name": "Евгений Горбунов",
-			"rank": "фотограф",
+			"rank": "photographer",
 			"link": "#"
 		},
 		{
 			"name": "Евгений Игнашов",
-			"rank": "проектировщик",
+			"rank": "UX-specialists",
 			"link": "#"
 		}
 	]

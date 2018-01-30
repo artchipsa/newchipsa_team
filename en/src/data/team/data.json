@@ -1,0 +1,105 @@
+{
+	"main":[
+		{
+			"name": "Maxim Kyshtymov",
+			"rank": "CEO",
+			"link": "team/maxkysh",
+			"img": "url(public/max.jpg)"
+		},
+		{
+			"name": "Tatyana Kyshtymova",
+			"rank": "project manager",
+			"link": "team/tanyakysh",
+			"img": "url(public/tanya.jpg)"
+
+		},
+		{
+			"name": "Konstantin Kulesha",
+			"rank": "project manager",
+			"link": "team/kylesha",
+			"img": "url(public/kostya.jpg)"
+		},
+		{
+			"name": "Ekaterina Proskurina",
+			"rank": "client manger",
+			"link": "team/proskyrina",
+			"img": "url(public/kate.jpg)"
+		},
+		{
+			"name": "Alexander Pedchenko",
+			"rank": "art director, CGI designer",
+			"link": "team/pedchenko",
+			"img": "url(public/alex.jpg)"
+		},
+		{
+			"name": "Kirill Kim",
+			"rank": "senior designer",
+			"link": "team/kim",
+			"img": "url(public/kirill.jpg)"
+		},
+		{
+			"name": "Einar Hamidullin",
+			"rank": "middle designer",
+			"link": "team/khamidulin",
+			"img": "url(public/einar.jpg)"
+		},
+		{
+			"name": "Vladimir Ignatenko",
+			"rank": "junior designer",
+			"link": "team/ignatenko",
+			"img": "url(public/vova.jpg)"
+		},
+		{
+			"name": "Sofia Treskovskaya",
+			"rank": "junior designer",
+			"link": "team/treskovskaya",
+			"img": "url(public/sofi.jpg)"
+
+		},
+		{
+			"name": "Eugene Yakuba",
+			"rank": "frontend developer",
+			"link": "team/jakuba",
+			"img": "url(public/john.jpg)"
+		},
+		{
+			"name": "Ivan Reshetilo",
+			"rank": "senior backend developer",
+			"link": "team/reshetilo",
+			"img": "url(public/ivan.jpg)"
+		},
+		{
+			"name": "Sergey Shut",
+			"rank": "junior backend developer",
+			"link": "team/shuts",
+			"img": "url(public/serj.jpg)"
+		}
+	],
+	"remote":[
+		{
+			"name": "Anton Reshetin",
+			"rank": "copywriter",
+			"link": "#"
+		},
+		{
+			"name": "Artem Markelov",
+			"rank": "SEO-specialist",
+			"link": "#"
+		},
+		{
+			"name": "Anton Lazarev",
+			"rank": "marketer",
+			"link": "#"
+		},
+		{
+			"name": "Eugene Gorbunov",
+			"rank": "photographer",
+			"link": "#"
+		},
+		{
+			"name": "Eugene Ignashov",
+			"rank": "UX-specialists",
+			"link": "#"
+		}
+	]
+}

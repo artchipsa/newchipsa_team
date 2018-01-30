@@ -1,0 +1,13 @@
+{
+	"name": "Ivan Reshetilo",
+	"rank": "Senior Backend Developer",
+	"descr": "True camp in development. Experienced, strong and loud.",
+	"awards": [
+		{
+			"img": "public/achivements/bitrix.png",
+			"award_text": "Expert on Bitrix CMS"
+		}
+	],
+	"img": "url(public/ivan.jpg)",
+	"skills":["Backend Development (Bitrix CMS)", "Database Programming"]
+}

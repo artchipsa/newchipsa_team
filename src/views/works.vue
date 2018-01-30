@@ -1,27 +1,28 @@
 <template lang="pug">
 	transition(v-on:enter="startAnimate" v-on:before-enter="beforeAnimate" v-on:leave="leaveAnimate" appear mode="out-in")
 		section.works-block
-				.work-background.offScreen(v-bind:style="{ backgroundImage: img}")
 				.work.owl-carousel
 					.item(v-for="work in data.works")
-						.color-half.offScreen(href="#" v-bind:style="{ backgroundColor: work.color }")
-							a(v-bind:href="work.site_url", target="_blank" v-if="work.site_url").top-links
-								h2 {{work.name}}
-								.site-link
-									i.fa.fa-link(aria-hidden="true")
-							.top-links(v-else)
-								h2 {{work.name}}
-							ul.awards
-								li(v-for="award in work.awards")
-									a(v-bind:href="award.link") {{ award.text }}
-							a(v-bind:href="work.bh_url", target="_blank" v-if="work.bh_url").bottom-links
-								span Подробнее
-								img(src="src/assets/svg/plus.svg")
+						.work-background.offScreen(v-bind:style="{ backgroundImage: work.img}")
+						.item.wrap
+							.color-half.offScreen(href="#" v-bind:style="{ backgroundColor: work.color }")
+								a(v-bind:href="work.site_url", target="_blank" v-if="work.site_url").top-links
+									h2 {{work.name}}
+									.site-link
+										i.fa.fa-link(aria-hidden="true")
+								.top-links(v-else)
+									h2 {{work.name}}
+								ul.awards
+									li(v-for="award in work.awards")
+										a(v-bind:href="award.link") {{ award.text }}
+								a(v-bind:href="work.bh_url", target="_blank" v-if="work.bh_url").bottom-links
+									span Подробнее
+									img(src="src/assets/svg/plus.svg")
 
-						.info-half.offScreen
-							ul
-								li(v-for="feature in work.features") {{ feature.text }}
-							.year {{ work.year }}
+							.info-half.offScreen
+								ul
+									li(v-for="feature in work.features") {{ feature.text }}
+								.year {{ work.year }}
 				.owl-controls.offScreen
 					.owl-navs
 						.owl-nav(@click="prevSlide" v-bind:class="{disabled: prevDisabled}") предыдущая<br>
@@ -176,15 +177,21 @@
 	}
 	.owl-carousel{
 		display: block;
+		width: 100%;
+		height: 100%;
 	}
 	.item{
 		position: relative;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
-		width: 82%;
+		width: 100%;
 		height: 100%;
 		display: flex;
+		.wrap {
+			width: 82%;
+			height: 76%;
+		}
 		.color-half{
 			width: 50%;
 			height: 0%;
@@ -450,6 +457,9 @@
 		.item .info-half .year{
 			right: 6%;
 		}
+		.owl-controls .owl-navs .owl-nav{
+			display: none;
+		}
 	}
 
 	@media (max-width: 469px){
@@ -476,7 +486,7 @@
 			font-size: 26px;
 		}
 		.item .color-half, .item .info-half{
-			padding: 8%;
+			padding: 20px;
 		}
 		.works-block{
 			height: 100%;
@@ -490,6 +500,10 @@
 		.work{
 			height: 76%;
 		}
+		.owl-carousel {
+			height: 100%;
+			width: 100%;
+		}
 		.owl-carousel .owl-stage-outer{
 			height: 100%;
 		}
@@ -498,6 +512,11 @@
 		}
 		.item{
 			height: 100%;
+			width: 100%;
+		}
+		.item .wrap {
+			height: 76%;
+			width: 82%;
 		}
 		.item .info-half .year{
 			font-size: 22px;

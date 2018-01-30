@@ -305,7 +305,7 @@
 
 	@media (max-width: 700px){
 		.background-pic.onScreen{
-			transform: scale(1);
+			transition: scale(1) 1s linear;
 		}
 		
 		.background-pic{
@@ -329,11 +329,11 @@
 		.member-info .half:last-child{
 			margin-bottom: 0px;
 			width: 50%;
-			height: 25%;
+			height: 30%;
 		}
 		.member-info .half .quote{
 			font-size: 14px;
-			line-height: 115%;
+			line-height: 150%;
 			width: 90%;
 		}
 		.member-info .half .skills li{

@@ -8,9 +8,9 @@
 			.form-group.big-margin
 				input(v-validate="'required|numeric'" v-bind:class="{'input': true, 'is-danger': errors.has('tel') }" v-model="tel" type="tel" name="tel" placeholder="Телефон")
 			.form-group.big-margin
-				textarea(name="descr" v-model="text" id="" placeholder="описание задачи")
+				textarea(name="descr" v-model="text" id="" placeholder="Описание задачи")
 			.budget
-				.text выберите бюджет
+				.text Выберите бюджет
 				.custom-check
 					input(type="radio" value="Менее 500" name="budget" id="small" checked)
 					label(for="small") менее 500 т.р.
@@ -28,7 +28,7 @@
 		.sucsess
 			h2 Спасибо! #[br] Мы вам перезвоним.
 
-</template>
+</template> 
 
 <script>
 	export default{
@@ -105,6 +105,11 @@
 				&.is-danger{
 					border-bottom-color: #f00;
 				}
+			}
+
+			textarea {
+				padding-bottom: 0;
+				height: 44px;
 			}
 		}
 		.budget{
@@ -244,6 +249,7 @@
 		}
 	}
 
+
 	@media (max-width: 1367px){
 		.order-container .form-group{
 			margin-bottom: 20px;
@@ -256,6 +262,21 @@
 		}
 		.order-container .budget{
 			margin-bottom: 5%;
+		}
+	}
+
+	@media (max-width: 1305px) {
+		.order-container .budget .custom-check {
+			margin-right: 4%;
+		}
+	}
+
+	@media (max-width: 1180px) {
+		.order-container .budget .text{
+	        margin-right: 0%;
+		}
+		.order-container .budget .custom-check {
+			margin-right: 2%;
 		}
 	}
 
@@ -277,7 +298,7 @@
 		.order-container .budget{
 			padding-bottom: 0px;
 			border-bottom: none;
-			margin-bottom: 50px;
+			margin-bottom: 30px;
 		}
 		.order-container .budget .text{
 			display: block;
@@ -285,6 +306,10 @@
 		}
 		.order-container .budget .custom-check [type="radio"]:not(:checked) + label:after, .order-container .budget .custom-check [type="radio"]:checked + label:after{
 			bottom: -8px;
+		}
+
+		.order-container .budget .custom-check {
+			margin-bottom: 15px;
 		}
 		.order-container .agree-check{
 			margin-left: 30px;
@@ -340,7 +365,7 @@
 			padding-bottom: 3px;
 		}
 		.order-container .form-group textarea{
-			height: 26px;
+			height: 24px;
 		}
 		.order-container .form-group.big-margin{
 		    margin-bottom: 15px;

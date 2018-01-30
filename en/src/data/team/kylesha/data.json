@@ -1,0 +1,24 @@
+{
+	"name": "Konstantin Kulesha",
+	"rank": "Project Manager",
+	"descr": "His projects always reach its successful conclusion. Nerves of steel.",
+	"awards": [
+		{
+			"img": "public/achivements/design.png",
+			"award_text": "Certified specialist in computer graphics and webdesign."
+		},
+		{
+			"img": "public/achivements/sibirix.png",
+			"award_text": "Successful completion of the project management course by Sibirix."
+		}
+	],
+	"socials":[
+		{
+			"icon": "fa-facebook",
+			"link": "https://vk.com/kostensky"
+		}
+	],
+	"img": "url(public/kostya.jpg)",
+	"email": "pm@chipsa.ru",
+	"skills":["Project Management", "UI/UX", "Motion design"]
+}

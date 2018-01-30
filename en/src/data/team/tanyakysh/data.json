@@ -1,0 +1,9 @@
+{
+	"name": "Tatyana Kyshtymova",
+	"rank": "Project Manager",
+	"descr": "Responsible for order in docs. The responsible manager.",
+	"awards": [],
+	"img": "url(public/tanya.jpg)",
+	"email": "manager@chipsa.ru ",
+	"skills":["Project Management", "Working with documents"]
+}

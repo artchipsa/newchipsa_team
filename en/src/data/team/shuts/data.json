@@ -1,0 +1,7 @@
+{
+	"name": "Sergey Shut",
+	"rank": "Junior Backend Developer ",
+	"descr": "Huge pursuit of growth in backend development — its about him.",
+	"img": "url(public/serj.jpg)",
+	"skills":["Backend (Bitrix CMS)", "Database Programming"]
+}
